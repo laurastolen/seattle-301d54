@@ -1,12 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Abel|Oswald:700|Yellowtail|Patrick+Hand');
-
-* {
-  font-family: times;
-}
-
-body {
-  background: #fff;
-}
+/* more discrete or minor layout concerns, eg navbars */
+/* modules are contained within layout */
 
 nav, article, aside, footer section {
   margin: 0 auto;
@@ -59,12 +52,6 @@ hr {
   background-image: url('../img/hr.png');
 }
 
-h2 {
-  margin-top: 50px;
-  font-family: 'Oswald', sans-serif;
-  font-size: 2.5em;
-}
-
 .print, .date {
   color: #a9a8a5;
   font-family: 'Abel', sans-serif;
@@ -87,18 +74,6 @@ h2 {
 
 .print img {
   margin-right: 3px;
-}
-
-main p {
-  color: #333;
-  font-size: 1.2em;
-  line-height: 1.3em;
-  text-indent: 30px;
-  margin: 20px 0px;
-}
-
-input {
-  font-family: 'Patrick Hand', cursive;
 }
 
 .recipe {
@@ -151,20 +126,4 @@ aside button {
   color: #fff;
   font-size: 1.2em;
   border: none;
-}
-
-section hr {
-  border-bottom: 1px solid #eee;
-  height: 0;
-}
-
-
-footer section p{
-  padding: 50px 0;
-  line-height: 1.5em;
-  text-align: center;
-  color: #aaa;
-}
-
-
 }
