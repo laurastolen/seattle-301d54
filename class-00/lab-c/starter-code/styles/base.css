@@ -1,0 +1,16 @@
+/* no classes or ids */
+/* heading sizes, default link styles, default font styles, and body backgrounds */
+
+@import url('https://fonts.googleapis.com/css?family=Abel|Oswald:700|Yellowtail|Patrick+Hand');
+
+* {
+  font-family: times;
+}
+
+body {
+  background: #fff;
+}
+
+input {
+  font-family: 'Patrick Hand', cursive;
+}
